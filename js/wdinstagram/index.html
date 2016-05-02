@@ -1,0 +1,6 @@
+<section class="index">
+  <h2>All posts</h2>
+  <span data-ng-repeat="gram in indexVm.grams">
+      <a data-ui-sref="wdinstagramShow({id: $index})"><img src="{{gram.photo_url}}" /></a>
+  </span>
+</section>

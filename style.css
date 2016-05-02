@@ -1,0 +1,41 @@
+body{
+  font-family: helvetica, sans-serif;
+  width:80vw;
+  margin:0 auto;
+  background-color: aliceblue;
+}
+section.index{
+  margin:1em;
+  padding:0;
+  box-sizing: border-box;
+
+}
+a, a:visited{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:grey;
+}
+a img{
+  height:30%;
+  width:30%;
+  margin:0;
+  padding:0;
+  display:inline;
+}
+a img, a img:visited{
+  margin:0;
+  padding:0;
+  border:0;
+}
+a img:hover{
+  opacity: 0.5;
+}
+img{
+  height:400px;
+  width:400px;
+}
+h5{
+  font-style: italic;
+}
